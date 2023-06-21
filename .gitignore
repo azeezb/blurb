@@ -15,6 +15,7 @@ build/
 .env.production.local
 
 # Ignore IDE-specific files
+/.vs
 .vscode/
 .idea/
 
