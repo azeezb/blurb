@@ -1,0 +1,4 @@
+﻿// Server Name
+DESKTOP-CHKEIF2
+DESKTOP-CHKEIF2\Azeez
+Server=ServerName;Database=DatabaseName;User Id=Username;Password=Password;
