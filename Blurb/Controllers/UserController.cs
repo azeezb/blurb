@@ -22,7 +22,7 @@ namespace Blurb.Controllers
         {
             List<User> usersList = _dbContext.Users.ToList();
             return StatusCode(StatusCodes.Status200OK, usersList);
-        }
+        }                               
 
     }
 }

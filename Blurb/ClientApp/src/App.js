@@ -1,6 +1,16 @@
-import { useEffect, useState } from "react"
+import * as React from 'react';
+import { useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
-const App = () => {
+import Home from './pages/Home';
+import Login from './pages/Login';
+
+const isAuthenticated = false;
+
+function App() {
+    const navigate = useNavigate()
 
     // 1. Create useState
     const [users, setUsers] = useState([])
@@ -19,38 +29,28 @@ const App = () => {
             });
     }, []);
 
-    // 3. Create the div and table
 
-    return (
-        <div className="container">
-            <h1>Users</h1>
-            <div className="row">
-                <div className="col-sm-12">
-                    <table className="table table-striped">
-                        <thead>
-                            <tr>
-                                <th>Id</th>
-                                <th>Name</th>
-                                <th>Age</th>
-                                <th>Email</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {
-                                users.map((item) => (
-                                    <tr>
-                                        <td>{item.id}</td>
-                                        <td>{item.name}</td>
-                                        <td>{item.age}</td>
-                                        <td>{item.email}</td>
-                                    </tr>
-                                ))}
-                        </tbody>
-                    </table>
+    useEffect((isAuthenticated) => {
+        if (!isAuthenticated) {
+            navigate('/login');
+        }
+
+
+
+    }, [isAuthenticated]);
+
+        return (
+            <div className="container">
+                <h1>Blurb</h1>
+                <div className="secondcontainer">
+                    <Routes>
+                        <Route path="/" element={<Home />} />
+                        <Route path="login" element={<Login />} />
+                    </Routes>
                 </div>
             </div>
-        </div>
-    );
+        );
+
 };
 
 export default App;
