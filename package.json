@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "react-router-dom": "^6.13.0"
+  },
+  "name": "blurb",
+  "description": "Blurb App package",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azeezb/blurb.git"
+  },
+  "author": "Azeez B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/azeezb/blurb/issues"
+  },
+  "homepage": "https://github.com/azeezb/blurb#readme"
+}

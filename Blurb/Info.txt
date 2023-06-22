@@ -2,3 +2,6 @@
 DESKTOP-CHKEIF2
 DESKTOP-CHKEIF2\Azeez
 Server=ServerName;Database=DatabaseName;User Id=Username;Password=Password;
+
+//Rebuild DbContext for classes in package manager console
+Scaffold-DbContext "Server=DESKTOP-CHKEIF2; DataBase=blurbDB;Integrated Security=True;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Models  -Force

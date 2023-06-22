@@ -1,2 +1,23 @@
 ~$urb Scope and Ideas.docx 
+
+
+# Ignore node_modules folder
+node_modules/
+
+# Ignore build output
+build/
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore IDE-specific files
 /.vs
+.vscode/
+.idea/
+
+
+
