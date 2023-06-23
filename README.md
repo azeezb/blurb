@@ -11,7 +11,6 @@ Building a small Goodreads-esque program, with a focus on reviews and public opi
 - User scans an ISBN or a barcode, book is recognised.
 - Sent to Google Books API for metadata on the book 
   - Title, author, small summary, other books in series
-
 - Start scanning and isolating ISBNs.
 - Start putting them through to Google Books API
 - Scrape data and place in class form (figure out classes in Python) 
@@ -38,7 +37,6 @@ Building a small Goodreads-esque program, with a focus on reviews and public opi
 1. **Version control:** Use a version control system like Git to manage your codebase. Keep your commits well-organized, with clear commit messages. **Use branching and merging effectively to collaborate with others and demonstrate your ability to work on a team.**
 1. **Continuous integration and deployment (CI/CD): Set up a CI/CD pipeline to automate the build, testing, and deployment processes. This shows your familiarity with modern development practices and makes it easier for employers to evaluate your work.**
 
-
 ## Proposed Project Structure
 
 ### Backend (C#, MySQL)
@@ -49,9 +47,7 @@ Building a small Goodreads-esque program, with a focus on reviews and public opi
 1. **Authentication and Authorization**: Create a admin/user dichotomy with the best security practices for logging in. 
 1. **Business Logic: Possibly the most intensive aspect.** Validating user input, performing book searches, applying filters and sorting options, calculating book statistics, and managing user interactions like ratings and reviews.
 1. **Data Processing and Storage:** Additional data processing tasks - performing calculations, generating reports, handling file uploads for book covers etc.
-
 1. **Integration with External APIs**: Retrieving book details from external book databases (Google Books API, LibraryThing), fetching book recommendations, integrating with payment gateways for buying them.
-
 1. **Security and Validation**
 
 
