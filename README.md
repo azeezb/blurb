@@ -4,7 +4,7 @@ Building a small Goodreads-esque program, with a focus on reviews and public opi
 
 ## Aim
 
-**Intended to gain and display proficiency in React as a frontend and C#/MySQL as a backend.**
+### Gain and display proficiency in using React as a frontend and C#/MySQL as a backend.**
 
 ## Proposed Features
 
@@ -65,4 +65,3 @@ Building a small Goodreads-esque program, with a focus on reviews and public opi
 
 ####  LibraryThing
 - https://www.librarything.com/services/
-
